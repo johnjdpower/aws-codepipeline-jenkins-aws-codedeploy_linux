@@ -15,6 +15,6 @@ class JenkinsSampleTest < MiniTest::Unit::TestCase
   end
 
   def test_congratulations
-    assert(@webpage =~ /completed/)
+    assert(@webpage =~ /Completed/,'could not find completed with capital c')
   end
 end
